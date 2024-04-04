@@ -66,7 +66,7 @@ rxjava = "1.3.8"
 rxjava2 = "2.2.21"
 rxjava2_extensions = "0.20.10"
 slf4j = "2.0.7"
-transifex = "1.2.1"
+transifex = "1.3.0"
 truevfs = "0.14.0"
 ulid = "1.3.0"
 xmlpull = "1.1.3.1"
@@ -413,7 +413,7 @@ commons_compress         = { module = "org.apache.commons:commons-compress",    
 transifex_sdk          = { module = "com.transifex.txnative:txsdk", version.ref = "transifex" }
 transifex_common       = { module = "com.transifex.txnative:common", version.ref = "transifex" }
 google_gson            = { module = "com.google.code.gson:gson", version = "2.10.1" }
-inflationx_viewpump    = { module = "io.github.inflationx:viewpump", version = "2.1.1" }
+b3nedikt_viewpump      = { module = "dev.b3nedikt.viewpump:viewpump", version = "4.0.14" }
 moznion_uribuildertiny = { module = "net.moznion:uribuilder-tiny", version = "2.7.1" }
 
 #------------------------------------------------------------------------
