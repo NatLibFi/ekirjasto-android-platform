@@ -172,6 +172,7 @@ androidx_viewbinding = { module = "androidx.databinding:viewbinding", version = 
 androidx_viewpager = { module = "androidx.viewpager:viewpager", version = "1.0.0" }
 androidx_viewpager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
 androidx_webkit = { module = "androidx.webkit:webkit", version = "1.7.0" }
+# E-kirjasto passkey support
 androidx_credentials = { module = "androidx.credentials:credentials", version="1.2.2"}
 androidx_credentials_playauth = { module = "androidx.credentials:credentials-play-services-auth", version = "1.2.2"}
 
