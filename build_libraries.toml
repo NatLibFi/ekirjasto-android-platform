@@ -171,9 +171,6 @@ androidx_viewbinding = { module = "androidx.databinding:viewbinding", version = 
 androidx_viewpager = { module = "androidx.viewpager:viewpager", version = "1.0.0" }
 androidx_viewpager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
 androidx_webkit = { module = "androidx.webkit:webkit", version = "1.7.0" }
-# E-kirjasto passkey support
-androidx_credentials = { module = "androidx.credentials:credentials", version="1.2.2"}
-androidx_credentials_playauth = { module = "androidx.credentials:credentials-play-services-auth", version = "1.2.2"}
 
 #------------------------------------------------------------------------
 # Kotlin
@@ -520,3 +517,19 @@ slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
 ulid_kotlin = { module = "com.aallam.ulid:ulid-kotlin", version.ref = "ulid" }
 ulid_kotlin_jvm = { module = "com.aallam.ulid:ulid-kotlin-jvm", version.ref = "ulid" }
 xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
+
+
+#------------------------------------------------------------------------
+# KEEP THE ABOVE CONTENT AS CLOSE AS POSSIBLE TO UPSTREAM
+#------------------------------------------------------------------------
+#
+#------------------------------------------------------------------------
+# E-kirjasto
+#------------------------------------------------------------------------
+
+# Passkey support
+androidx_credentials = { module = "androidx.credentials:credentials", version="1.2.2"}
+androidx_credentials_playauth = { module = "androidx.credentials:credentials-play-services-auth", version = "1.2.2"}
+
+# Test login
+jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", version="3.0.0"}
