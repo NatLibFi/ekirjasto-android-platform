@@ -528,11 +528,30 @@ xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
 #------------------------------------------------------------------------
 
 # Passkey support
-androidx_credentials = { module = "androidx.credentials:credentials", version="1.2.2"}
-androidx_credentials_playauth = { module = "androidx.credentials:credentials-play-services-auth", version = "1.2.2"}
-android_googleid = {module = "com.google.android.libraries.identity.googleid:googleid", version = "1.1.0"}
-play_services_auth = {module = "com.google.android.gms:play-services-auth", version = "21.1.1"}
-play_services_fido = {module = "com.google.android.gms:play-services-fido", version = "21.0.0"}
+androidx_credentials = { module = "androidx.credentials:credentials", version="1.2.2" }
+androidx_credentials_playauth = { module = "androidx.credentials:credentials-play-services-auth", version = "1.2.2" }
+android_googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version = "1.1.0" }
+play_services_auth = { module = "com.google.android.gms:play-services-auth", version = "21.1.1" }
+play_services_fido = { module = "com.google.android.gms:play-services-fido", version = "21.0.0" }
 
 # Test login
-jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", version="3.0.0"}
+jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", version = "3.0.0" }
+
+
+[plugins]
+
+kotlin_android = { id = "org.jetbrains.kotlin.android", version = "1.9.0" }
+kotlin_jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.0" }
+
+android_application = { id = "com.android.application", version = "8.1.0" }
+android_library = { id = "com.android.library", version = "8.1.0" }
+
+androidx_navigation_safeargs_kotlin = { id = "androidx.navigation.safeargs.kotlin", version = "2.7.1" }
+
+google_gms_google_services = { id = "com.google.gms.google-services", version = "4.4.1" }
+
+google_firebase_crashlytics = { id = "com.google.firebase.crashlytics", version = "2.9.9" }
+
+mannodermaus_android_junit5 = { id = "de.mannodermaus.android-junit5", version = "1.9.3.0" }
+
+undercouch_download = { id = "de.undercouch.download", version = "5.4.0" }
