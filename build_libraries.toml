@@ -530,6 +530,9 @@ xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
 # Passkey support
 androidx_credentials = { module = "androidx.credentials:credentials", version="1.2.2"}
 androidx_credentials_playauth = { module = "androidx.credentials:credentials-play-services-auth", version = "1.2.2"}
+android_googleid = {module = "com.google.android.libraries.identity.googleid:googleid", version = "1.1.0"}
+play_services_auth = {module = "com.google.android.gms:play-services-auth", version = "21.1.1"}
+play_services_fido = {module = "com.google.android.gms:play-services-fido", version = "21.0.0"}
 
 # Test login
 jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", version="3.0.0"}
