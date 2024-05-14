@@ -543,8 +543,8 @@ jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", versi
 kotlin_android = { id = "org.jetbrains.kotlin.android", version = "1.9.0" }
 kotlin_jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.0" }
 
-android_application = { id = "com.android.application", version = "8.1.0" }
-android_library = { id = "com.android.library", version = "8.1.0" }
+android_application = { id = "com.android.application", version = "8.2.1" }
+android_library = { id = "com.android.library", version = "8.2.1" }
 
 androidx_navigation_safeargs_kotlin = { id = "androidx.navigation.safeargs.kotlin", version = "2.7.1" }
 
