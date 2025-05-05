@@ -9,7 +9,7 @@ google_auto_value = "1.7"
 google_exoplayer = "r1.5.15"
 google_failureaccess = "1.0.1"
 google_guava = "32.1.2-android"
-google_material = "1.9.0"
+google_material = "1.12.0"
 google_play_services_base = "18.2.0"
 google_play_services_location = "21.0.1"
 google_play_services_measurement_api = "21.3.0"
@@ -75,8 +75,8 @@ xmlpull = "1.1.3.1"
 # AndroidX
 #------------------------------------------------------------------------
 
-androidx_activity = { module = "androidx.activity:activity", version = "1.7.2" }
-androidx_activity_ktx = { module = "androidx.activity:activity-ktx", version = "1.7.2" }
+androidx_activity = { module = "androidx.activity:activity", version = "1.8.1" }
+androidx_activity_ktx = { module = "androidx.activity:activity-ktx", version = "1.8.1" }
 androidx_annotation = { module = "androidx.annotation:annotation", version = "1.6.0" }
 androidx_appcompat = { module = "androidx.appcompat:appcompat", version = "1.6.1" }
 androidx_appcompat_resources = { module = "androidx.appcompat:appcompat-resources", version = "1.6.1" }
@@ -143,6 +143,8 @@ androidx_preference_ktx = { module = "androidx.preference:preference-ktx", versi
 androidx_print = { module = "androidx.print:print", version = "1.0.0" }
 androidx_recycler_view = { module = "androidx.recyclerview:recyclerview", version = "1.3.1" }
 androidx_recyclerview = { module = "androidx.recyclerview:recyclerview", version = "1.3.1" }
+androidx_resourceinspection_annotation = { module = "androidx.resourceinspection:resourceinspection-annotation", version = "1.0.1" }
+androidx_resourceinspection_processor = { module = "androidx.resourceinspection:resourceinspection-processor", version = "1.0.1" }
 androidx_room_common = { module = "androidx.room:room-common", version = "2.5.2" }
 androidx_room_coroutines = { module = "androidx.room:room-coroutines", version = "2.1.0-alpha04" }
 androidx_room_ktx = { module = "androidx.room:room-ktx", version = "2.5.2" }
@@ -162,8 +164,8 @@ androidx_test_orchestrator = { module = "androidx.test:orchestrator", version = 
 androidx_test_rules = { module = "androidx.test:rules", version = "1.5.0" }
 androidx_test_runner = { module = "androidx.test:runner", version = "1.5.2" }
 androidx_tracing = { module = "androidx.tracing:tracing", version = "1.1.0" }
-androidx_transition = { module = "androidx.transition:transition", version = "1.4.1" }
-androidx_transition_ktx = { module = "androidx.transition:transition-ktx", version = "1.4.1" }
+androidx_transition = { module = "androidx.transition:transition", version = "1.5.0" }
+androidx_transition_ktx = { module = "androidx.transition:transition-ktx", version = "1.5.0" }
 androidx_vectordrawable = { module = "androidx.vectordrawable:vectordrawable", version = "1.1.0" }
 androidx_vectordrawable_animated = { module = "androidx.vectordrawable:vectordrawable-animated", version = "1.1.0" }
 androidx_versionedparcelable = { module = "androidx.versionedparcelable:versionedparcelable", version = "1.1.1" }
