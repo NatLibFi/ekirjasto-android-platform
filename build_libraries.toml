@@ -30,8 +30,8 @@ kxml = "2.3.0"
 leak_canary = "2.1"
 logback_android = "3.0.0"
 logback_classic = "1.4.8"
-nano_httpd = "master-SNAPSHOT"
-nano_httpd_nanolets = "master-SNAPSHOT"
+nano_httpd = "3.0.0-palace0001"
+nano_httpd_nanolets = "3.0.0-palace0001"
 nypl_audiobook = "6.7.0"
 nypl_drm_adobe = "1.2.3"
 nypl_drm_axis = "1.0.2"
@@ -492,8 +492,8 @@ media3_decoder = { module = "androidx.media3:media3-decoder", version = "1.2.0" 
 media3_exoplayer = { module = "androidx.media3:media3-exoplayer", version = "1.2.0" }
 media3_extractor = { module = "androidx.media3:media3-extractor", version = "1.2.0" }
 media3_session = { module = "androidx.media3:media3-session", version = "1.2.0" }
-nano_httpd = { module = "com.github.readium.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
-nano_httpd_nanolets = { module = "com.github.readium.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
+nano_httpd = { module = "com.io7m.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
+nano_httpd_nanolets = { module = "com.io7m.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
 nypl_drm_adobe = { module = "org.librarysimplified.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
 nypl_drm_axis = { module = "org.librarysimplified.drm.axis:org.librarysimplified.drm.axis.provider", version.ref = "nypl_drm_axis" }
 nypl_drm_core = { module = "org.librarysimplified.drm:org.librarysimplified.drm.core", version.ref = "nypl_drm_core" }
