@@ -169,7 +169,7 @@ androidx_transition_ktx = { module = "androidx.transition:transition-ktx", versi
 androidx_vectordrawable = { module = "androidx.vectordrawable:vectordrawable", version = "1.1.0" }
 androidx_vectordrawable_animated = { module = "androidx.vectordrawable:vectordrawable-animated", version = "1.1.0" }
 androidx_versionedparcelable = { module = "androidx.versionedparcelable:versionedparcelable", version = "1.1.1" }
-androidx_viewbinding = { module = "androidx.databinding:viewbinding", version = "8.3.0-alpha03" }
+androidx_viewbinding = { module = "androidx.databinding:viewbinding", version = "8.5.1" }
 androidx_viewpager = { module = "androidx.viewpager:viewpager", version = "1.0.0" }
 androidx_viewpager2 = { module = "androidx.viewpager2:viewpager2", version = "1.0.0" }
 androidx_webkit = { module = "androidx.webkit:webkit", version = "1.7.0" }
@@ -545,8 +545,8 @@ jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", versi
 kotlin_android = { id = "org.jetbrains.kotlin.android", version = "1.9.0" }
 kotlin_jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.0" }
 
-android_application = { id = "com.android.application", version = "8.2.1" }
-android_library = { id = "com.android.library", version = "8.2.1" }
+android_application = { id = "com.android.application", version = "8.5.1" }
+android_library = { id = "com.android.library", version = "8.5.1" }
 
 androidx_navigation_safeargs_kotlin = { id = "androidx.navigation.safeargs.kotlin", version = "2.7.1" }
 
@@ -554,6 +554,6 @@ google_gms_google_services = { id = "com.google.gms.google-services", version = 
 
 google_firebase_crashlytics = { id = "com.google.firebase.crashlytics", version = "2.9.9" }
 
-mannodermaus_android_junit5 = { id = "de.mannodermaus.android-junit5", version = "1.9.3.0" }
+mannodermaus_android_junit5 = { id = "de.mannodermaus.android-junit5", version = "1.14.0.0" }
 
 undercouch_download = { id = "de.undercouch.download", version = "5.4.0" }
