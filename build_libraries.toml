@@ -463,9 +463,9 @@ play_services_location            = { module = "com.google.android.gms:play-serv
 # PDF components
 #------------------------------------------------------------------------
 
-# A PDFium fork that's compatible with AndroidX without the Jetifier
-# https://github.com/tibbi/PdfiumAndroid/
-pdfium_android = { module = "com.github.tibbi:PdfiumAndroid", version = "ff9cdff7c8" }
+# A PDFium fork with 16KB page size alignment support
+# https://github.com/marain87/PdfiumAndroid
+pdfium_android = { module = "com.github.marain87:PdfiumAndroid", version = "1.9.8" }
 
 #------------------------------------------------------------------------
 
