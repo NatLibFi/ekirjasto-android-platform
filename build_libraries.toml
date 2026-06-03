@@ -50,8 +50,8 @@ orgjson = "20200518"
 osgi_bundle_annotation = "1.0.0"
 osgi_bundle_version_annotation = "1.0.0"
 palace_audiobook = "11.8.0"
-palace_drm_adobe = "1.2.7"
-palace_drm_core = "1.2.7"
+palace_drm_adobe = "4.0.0"
+palace_drm_core = "4.0.0"
 palace_findaway = "6.0.8"
 palace_http = "1.3.0"
 palace_overdrive = "1.1.3"
@@ -512,8 +512,8 @@ okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
 org_json = { module = "org.json:json", version.ref = "orgjson" }
 osgi_bundle_annotation = { module = "org.osgi:org.osgi.annotation.bundle", version.ref = "osgi_bundle_annotation" }
 osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versioning", version.ref = "osgi_bundle_version_annotation" }
-palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "palace_drm_adobe" }
-palace_drm_core = { module = "org.thepalaceproject.drm:org.librarysimplified.drm.core", version.ref = "palace_drm_core" }
+palace_drm_adobe = { module = "org.thepalaceproject.drm.adobe:org.thepalaceproject.drm.adobe.provider", version.ref = "palace_drm_adobe" }
+palace_drm_core = { module = "org.thepalaceproject.drm:org.thepalaceproject.drm.core", version.ref = "palace_drm_core" }
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
