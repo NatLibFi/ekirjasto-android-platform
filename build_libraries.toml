@@ -225,6 +225,7 @@ junit = { module = "junit:junit", version = "4.13.2" }
 junit_jupiter_vintage = { module = "org.junit.vintage:junit-vintage-engine", version = "5.12.2" }
 junit_platform_commons = { module = "org.junit.platform:junit-platform-commons", version = "1.12.2" }
 junit_platform_engine = { module = "org.junit.platform:junit-platform-engine", version = "1.12.2" }
+junit_platform_launcher = { module = "org.junit.platform:junit-platform-launcher", version = "1.12.2" }
 junit_jupiter_api = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.12.2" }
 junit_jupiter_engine = { module = "org.junit.jupiter:junit-jupiter-engine", version = "5.12.2" }
 opentest = { module = "org.opentest4j:opentest4j", version = "1.3.0" }
@@ -553,8 +554,8 @@ jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", versi
 kotlin_android = { id = "org.jetbrains.kotlin.android", version = "2.2.10" }
 kotlin_jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.2.10" }
 
-android_application = { id = "com.android.application", version = "9.4.0" }
-android_library = { id = "com.android.library", version = "9.4.0" }
+android_application = { id = "com.android.application", version = "9.4.1" }
+android_library = { id = "com.android.library", version = "9.4.1" }
 
 androidx_navigation_safeargs_kotlin = { id = "androidx.navigation.safeargs.kotlin", version = "2.9.5" }
 
@@ -562,6 +563,6 @@ google_gms_google_services = { id = "com.google.gms.google-services", version = 
 
 google_firebase_crashlytics = { id = "com.google.firebase.crashlytics", version = "3.0.2" }
 
-mannodermaus_android_junit5 = { id = "de.mannodermaus.android-junit5", version = "1.12.2.0" }
+mannodermaus_android_junit = { id = "de.mannodermaus.android-junit", version = "2.0.1" }
 
 undercouch_download = { id = "de.undercouch.download", version = "5.4.0" }
