@@ -131,8 +131,8 @@ androidx_loader = { module = "androidx.loader:loader", version = "1.1.0" }
 androidx_localbroadcastmanager = { module = "androidx.localbroadcastmanager:localbroadcastmanager", version = "1.1.0" }
 androidx_media = { module = "androidx.media:media", version = "1.6.0" }
 androidx_multidex = { module = "androidx.multidex:multidex", version = "2.0.1" }
-androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version = "2.7.1" }
-androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version = "2.7.1" }
+androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version = "2.9.5" }
+androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version = "2.9.5" }
 androidx_paging_common = { module = "androidx.paging:paging-common", version = "3.2.0" }
 androidx_paging_common_ktx = { module = "androidx.paging:paging-common-ktx", version = "3.2.0" }
 androidx_paging_runtime = { module = "androidx.paging:paging-runtime", version = "3.2.0" }
@@ -225,6 +225,7 @@ junit = { module = "junit:junit", version = "4.13.2" }
 junit_jupiter_vintage = { module = "org.junit.vintage:junit-vintage-engine", version = "5.12.2" }
 junit_platform_commons = { module = "org.junit.platform:junit-platform-commons", version = "1.12.2" }
 junit_platform_engine = { module = "org.junit.platform:junit-platform-engine", version = "1.12.2" }
+junit_platform_launcher = { module = "org.junit.platform:junit-platform-launcher", version = "1.12.2" }
 junit_jupiter_api = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.12.2" }
 junit_jupiter_engine = { module = "org.junit.jupiter:junit-jupiter-engine", version = "5.12.2" }
 opentest = { module = "org.opentest4j:opentest4j", version = "1.3.0" }
@@ -553,15 +554,15 @@ jakewharton_processphoenix = { module = "com.jakewharton:process-phoenix", versi
 kotlin_android = { id = "org.jetbrains.kotlin.android", version = "2.2.10" }
 kotlin_jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.2.10" }
 
-android_application = { id = "com.android.application", version = "8.11.0" }
-android_library = { id = "com.android.library", version = "8.11.0" }
+android_application = { id = "com.android.application", version = "9.4.1" }
+android_library = { id = "com.android.library", version = "9.4.1" }
 
-androidx_navigation_safeargs_kotlin = { id = "androidx.navigation.safeargs.kotlin", version = "2.7.1" }
+androidx_navigation_safeargs_kotlin = { id = "androidx.navigation.safeargs.kotlin", version = "2.9.5" }
 
 google_gms_google_services = { id = "com.google.gms.google-services", version = "4.4.1" }
 
 google_firebase_crashlytics = { id = "com.google.firebase.crashlytics", version = "3.0.2" }
 
-mannodermaus_android_junit5 = { id = "de.mannodermaus.android-junit5", version = "1.12.2.0" }
+mannodermaus_android_junit = { id = "de.mannodermaus.android-junit", version = "2.0.1" }
 
 undercouch_download = { id = "de.undercouch.download", version = "5.4.0" }
